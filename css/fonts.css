@@ -1,0 +1,89 @@
+/*
+Euclid Circular A Regular - знак рубля
+Euclid Circular A Medium - заголовки, шт, мин, порядковый номер статьи в блоге - main font
+Euclid Circular A Bold - цифра у иконки корзины
+Floreste Wavy - названия товаров, цены, цифры - secondary font
+Le Murmure Regular - логотип
+Gilroy Medium - копирайт
+Circe Bold - кнопка Request design
+Circe Light - кнопка Request design
+*/
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../assets/fonts/EuclidCircularA-Bold.woff2") format("woff2"),
+    url("../assets/fonts/EuclidCircularA-Bold.woff") format("woff"),
+    url("../assets/fonts/EuclidCircularA-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../assets/fonts/EuclidCircularA-Medium.woff2") format("woff2"),
+    url("../assets/fonts/EuclidCircularA-Medium.woff") format("woff"),
+    url("../assets/fonts/EuclidCircularA-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular A";
+  src: url("../assets/fonts/EuclidCircularA-Regular.woff2") format("woff2"),
+    url("../assets/fonts/EuclidCircularA-Regular.woff") format("woff"),
+    url("../assets/fonts/EuclidCircularA-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Floreste Wavy";
+  src: url("../assets/fonts/FloresteWavy.woff2") format("woff2"),
+    url("../assets/fonts/FloresteWavy.woff") format("woff"),
+    url("../assets/fonts/FloresteWavy.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Le Murmure";
+  src: url("../assets/fonts/LeMurmure-Regular.woff2") format("woff2"),
+    url("../assets/fonts/LeMurmure-Regular.woff") format("woff"),
+    url("../assets/fonts/LeMurmure-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../assets/fonts/Gilroy-Medium.woff2") format("woff2"),
+    url("../assets/fonts/Gilroy-Medium.woff") format("woff"),
+    url("../assets/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url("../assets/fonts/Circe-Light.woff2") format("woff2"),
+    url("../assets/fonts/Circe-Light.woff") format("woff"),
+    url("../assets/fonts/Circe-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url("../assets/fonts/Circe-Bold.woff2") format("woff2"),
+    url("../assets/fonts/Circe-Bold.woff") format("woff"),
+    url("../assets/fonts/Circe-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
