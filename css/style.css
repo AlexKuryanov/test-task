@@ -2,6 +2,43 @@
 @import url(fonts.css);
 @import url(variables.css);
 
+/* General */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  scroll-behavior: smooth;
+}
+
 .page__body {
-  background-color: #ae97e8;
+  color: var(--white);
+  background-color: var(--lavender);
+}
+
+.container {
+  max-width: 112.5rem;
+  margin: 0 auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Header */
+.page__header {
+  padding: 1.25rem;
+}
+
+/* Footer */
+.page__footer {
+  padding-block: 3.375rem;
 }
