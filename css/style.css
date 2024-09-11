@@ -360,6 +360,11 @@ img {
   background-color: transparent;
   border: 2px solid var(--lime);
   border-radius: 100%;
+  cursor: pointer;
+}
+
+.category__btn svg path {
+  stroke: var(--lime);
 }
 
 /* Footer */
