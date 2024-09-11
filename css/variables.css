@@ -1,7 +1,11 @@
 :root {
   /* colors */
   --pink: #fa8fef;
+  --pale-magenta: #ffa8f6;
   --blue: #aecfff;
+  --very-pale-blue: #c8deff;
+  --soft-violet: rgba(197, 176, 250, 0.7);
+  --pale-violet: #cbb6ff;
   --lavender: #ae97e8;
   --lime: #d9ff5a;
   --white: #ffffff;
