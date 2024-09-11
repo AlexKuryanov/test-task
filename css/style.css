@@ -365,4 +365,11 @@ img {
 /* Footer */
 .page__footer {
   padding-block: 3.375rem;
+  font-family: var(--font3);
+  font-size: 1.125rem;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
 }
