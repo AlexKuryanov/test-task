@@ -539,7 +539,11 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 4.375rem;
+}
+
+.blog__title {
+  margin-bottom: 0;
+  margin-right: auto;
 }
 
 .articles__controls {
@@ -559,11 +563,6 @@ img {
 
 .articles__control:not(:first-child) {
   opacity: 0.3;
-}
-
-.blog__title {
-  margin-bottom: 0;
-  margin-right: auto;
 }
 
 .count {
