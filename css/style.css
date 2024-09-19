@@ -85,6 +85,9 @@ img {
 }
 
 .page__logo {
+  margin-right: 150px;
+}
+
 .page__title {
   font-family: var(--font4);
   font-weight: 600;
