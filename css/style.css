@@ -180,6 +180,8 @@ img {
 
 /* Slider */
 .slider {
+  width: calc(1920px - 2.5rem);
+  height: 1038px;
   margin: 0 auto;
 }
 
