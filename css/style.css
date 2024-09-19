@@ -180,8 +180,8 @@ img {
 
 /* Slider */
 .slider {
-  width: calc(1920px - 2.5rem);
-  height: 1038px;
+  width: calc(120rem - 40px);
+  height: 64.875rem;
   margin: 0 auto;
 }
 
@@ -198,7 +198,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 0 4 614px;
+  flex: 0 4 38.375rem;
   position: relative;
   height: 100%;
   padding-top: 6.25rem;
@@ -208,7 +208,7 @@ img {
 }
 
 .slide:hover {
-  flex: 4 0 1160px;
+  flex: 4 0 72.5rem;
 }
 
 .slide_1 {
@@ -228,7 +228,7 @@ img {
 }
 
 .slide__title {
-  margin: 1.5rem;
+  margin-bottom: 1.5rem;
   font-weight: 500;
   font-size: 1.25rem;
   text-transform: uppercase;
@@ -237,17 +237,17 @@ img {
 
 .slide:hover .slide__title {
   align-self: flex-start;
-  padding-left: 60px;
-  font-size: 28px;
+  padding-left: 3.75rem;
+  font-size: 1.75rem;
 }
 
 .slide__subtitle {
   display: none;
   position: absolute;
-  left: 42px;
-  top: 390px;
+  left: 2.625rem;
+  top: 24.375rem;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   text-transform: uppercase;
   color: var(--lime);
   transition: all 0.5s ease-in-out;
@@ -274,7 +274,7 @@ img {
 }
 
 .slide:hover .slide__bg-text {
-  font-size: 212px;
+  font-size: 13.25rem;
 }
 
 .slide__bg-text_2 {
@@ -284,6 +284,7 @@ img {
 .slide__bg-text_3 {
   color: var(--very-pale-blue);
 }
+
 .slide__pic {
   width: 18.125rem;
   height: 26.5625rem;
@@ -296,8 +297,8 @@ img {
 }
 
 .slide:hover .slide__pic {
-  width: 360px;
-  height: 637px;
+  width: 22.5rem;
+  height: 39.8125rem;
   margin-bottom: 0;
 }
 
@@ -319,12 +320,12 @@ img {
   font-size: 0.94rem;
   line-height: 153%;
   text-align: center;
-  border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.5s ease-in-out;
 }
 
 .slide:hover .slide__desc {
-  margin-left: 60px;
+  margin-left: 3.75rem;
   align-self: flex-start;
   text-align: left;
 }
@@ -339,9 +340,9 @@ img {
 }
 
 .slide:hover .slide__price {
-  margin-left: 60px;
+  margin-left: 3.75rem;
   align-self: flex-start;
-  font-size: 41px;
+  font-size: 2.5625rem;
   color: var(--lime);
 }
 
@@ -357,18 +358,18 @@ img {
 .slide__btn {
   display: none;
   position: absolute;
-  bottom: 70px;
+  bottom: 4.375rem;
   right: 0;
-  width: 377px;
-  height: 212px;
-  padding-left: 35px;
+  width: 23.5625rem;
+  height: 13.25rem;
+  padding-left: 2.1875rem;
   color: inherit;
   background-color: transparent;
   background-image: url(../assets/img/decor/btn_bg-min.svg),
     url(../assets/img/icons/cart_icon-min.svg);
   background-repeat: no-repeat, no-repeat;
-  background-size: 100% 100%, 24px 24px;
-  background-position: 0 0, 140px center;
+  background-size: 100% 100%, 1.5rem 1.5rem;
+  background-position: 0 0, 8.75rem center;
   border: none;
   transition: all 0.5s ease-in-out;
 }
@@ -486,7 +487,7 @@ img {
   display: flex;
   justify-content: space-around;
   min-width: 100%;
-  padding-block: 20px;
+  padding-block: 1.25rem;
 }
 
 .ticker_1 {
@@ -498,17 +499,17 @@ img {
 }
 
 .ticker__text {
-  margin-left: 66px;
+  margin-left: 4.125rem;
   font-family: var(--second-family);
   font-weight: 400;
-  font-size: 40px;
+  font-size: 2.5rem;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
 .ticker__text::after {
   content: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.4936 0.633555L12.0053 9.8985L21.3531 10.7607L12.0881 12.2729L11.2254 21.6208L9.71367 12.3559L0.365883 11.4936L9.63088 9.98142L10.4936 0.633555Z' fill='white'/%3E%3C/svg%3E");
-  margin-left: 66px;
+  margin-left: 4.125rem;
 }
 
 @keyframes scroll-to-left {
@@ -516,7 +517,7 @@ img {
     transform: translateX(0);
   }
   to {
-    transform: translateX(calc(-100% - 20px));
+    transform: translateX(calc(-100% - 1.25rem));
   }
 }
 
@@ -525,7 +526,7 @@ img {
     transform: translateX(-100%);
   }
   to {
-    transform: translateX(calc(0% - 20px));
+    transform: translateX(calc(0% - 1.25rem));
   }
 }
 
@@ -539,7 +540,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 
 .blog__title {
@@ -620,7 +621,7 @@ img {
   right: 55%;
   width: 5.625rem;
   font-weight: 500;
-  font-size: 17.92px;
+  font-size: 1.12rem;
   font-style: normal;
   text-align: right;
 }
