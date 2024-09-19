@@ -85,7 +85,10 @@ img {
 }
 
 .page__logo {
-  margin-right: 8.3125rem;
+.page__title {
+  font-family: var(--font4);
+  font-weight: 600;
+  font-size: 49px;
 }
 
 .link__iconed {
