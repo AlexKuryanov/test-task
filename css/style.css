@@ -98,7 +98,6 @@ img {
 }
 
 .catalog__link {
-  margin-right: 26.875rem;
   padding-left: 1.875rem;
 }
 
@@ -123,7 +122,6 @@ img {
   display: flex;
   justify-content: space-between;
   width: 10.625rem;
-  margin-right: 23.375rem;
 }
 
 .search__link {
