@@ -177,9 +177,10 @@ img {
 
 /* Slider */
 .slider {
-  width: calc(120rem - 40px);
+  width: 100%;
   height: 64.875rem;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .slider__list {
@@ -188,6 +189,9 @@ img {
   width: 100%;
   height: 100%;
   column-gap: 1.25rem;
+  @media (max-width: 990px) {
+    flex-wrap: wrap;
+  }
 }
 
 .slide {
@@ -195,17 +199,29 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex: 0 4 38.375rem;
+  flex: 0 4 33.3333%;
   position: relative;
   height: 100%;
   padding-top: 6.25rem;
   border-radius: 2.5rem;
   z-index: 1;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease;
+  @media (max-width: 990px) {
+    flex: 0 0 100%;
+  }
 }
 
 .slide:hover {
-  flex: 4 0 72.5rem;
+  flex: 4 0 63%;
+  @media (max-width: 1800px) {
+    flex: 4 0 60%;
+  }
+  @media (max-width: 1440px) {
+    flex: 4 0 42%;
+  }
+  @media (max-width: 990px) {
+    flex: 0 0 100%;
+  }
 }
 
 .slide_1 {
