@@ -474,6 +474,7 @@ img {
 .tickers {
   padding-top: var(--section-padding);
   padding-bottom: calc(2 * var(--section-padding));
+  overflow: hidden;
 }
 
 .ticker__wrapper {
