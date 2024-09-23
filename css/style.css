@@ -479,6 +479,7 @@ img {
 .ticker__wrapper {
   position: relative;
   display: flex;
+  width: 110%;
   overflow: hidden;
   user-select: none;
 }
