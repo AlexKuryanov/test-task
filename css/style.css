@@ -70,27 +70,46 @@ img {
   padding: 1.25rem;
   padding-bottom: var(--section-padding);
   position: relative;
+  @media all and (max-width: 990px) {
+    padding: 0.9375rem;
+  }
 }
 
 .nav {
   display: flex;
   align-items: center;
-  gap: 15%;
-  width: min(93%, 108.5rem);
+  gap: 14%;
+  width: clamp(22.5rem, 93%, 108.5rem);
   position: absolute;
   top: 3.3125rem;
   left: 3.75rem;
   z-index: 5;
+  @media all and (max-width: 1440px) {
+    gap: 10%;
+  }
+  @media all and (max-width: 1200px) {
+    gap: 5%;
+  }
+  @media all and (max-width: 769px) {
+    gap: 15px;
+    top: 25px;
+    left: 15px;
+  }
 }
 
 .page__logo {
-  width: 125px;
+  white-space: nowrap;
 }
 
 .page__title {
+  padding-top: 15px;
   font-family: var(--font4);
   font-weight: 600;
   font-size: 3.0625rem;
+  line-height: 0.5;
+  @media all and (max-width: 769px) {
+    font-size: 33px;
+  }
 }
 
 .link__iconed {
@@ -99,6 +118,9 @@ img {
 
 .catalog__link {
   padding-left: 1.875rem;
+  @media all and (max-width: 769px) {
+    display: none;
+  }
 }
 
 .link__iconed::before {
@@ -120,12 +142,17 @@ img {
 
 .nav__list {
   display: flex;
-  justify-content: space-between;
-  width: 10.625rem;
+  gap: 30px;
+  @media all and (max-width: 769px) {
+    display: none;
+  }
 }
 
 .search__link {
   padding-left: 2.375rem;
+  @media all and (max-width: 769px) {
+    display: none;
+  }
 }
 
 .search__link::before {
@@ -134,17 +161,32 @@ img {
   background-image: url(../assets/img/icons/search_icon.svg);
 }
 
+.search__link_mob {
+  display: none;
+  @media all and (max-width: 769px) {
+    display: block;
+    margin-left: auto;
+  }
+}
+
 .menu {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  max-width: 158px;
-  min-width: 133px;
+  gap: 36px;
   margin-left: auto;
+  @media all and (max-width: 1200px) {
+    margin-left: 0;
+  }
+  @media all and (max-width: 769px) {
+    gap: 18px;
+  }
 }
 
 .menu__item:last-child {
   display: none;
+  @media all and (max-width: 769px) {
+    display: block;
+  }
 }
 
 .icon__link {
