@@ -231,7 +231,7 @@ img {
   width: 100%;
   height: 100%;
   column-gap: 1.25rem;
-  @media (max-width: 990px) {
+  @media all and (max-width: 990px) {
     flex-wrap: wrap;
   }
 }
@@ -248,26 +248,29 @@ img {
   border-radius: 2.5rem;
   z-index: 1;
   transition: all 0.5s ease;
-  @media (max-width: 990px) {
+  @media all and (max-width: 990px) {
     flex: 0 0 100%;
   }
 }
 
 .slide:hover {
   flex: 4 0 63%;
-  @media (max-width: 1800px) {
+  @media all and (max-width: 1800px) {
     flex: 4 0 60%;
   }
-  @media (max-width: 1440px) {
+  @media all and (max-width: 1440px) {
     flex: 4 0 42%;
   }
-  @media (max-width: 990px) {
+  @media all and (max-width: 990px) {
     flex: 0 0 100%;
   }
 }
 
 .slide_1 {
   background-color: var(--soft-violet);
+  @media all and (max-width: 769px) {
+    background-color: transparent;
+  }
 }
 
 .slide_1:hover {
